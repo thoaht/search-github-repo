@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background: #eee;
+  padding: 10px;
+  .leftSide {
+    display: flex;
+    align-items: center;
+    h2 {
+      font-size: 16px;
+      line-height: 150%;
+    }
+  }
+  .rightSide {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  .navLink {
+    margin-right: 10px;
+  }
+};

@@ -1,0 +1,51 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    .searchInputWrapper {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+      justify-content: center;
+      .searchInput {
+        min-width: 250px;
+      }
+      .searchButton {
+        margin-left: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+    .error {
+      font-size: 14px;
+      line-height: 150%;
+      color: red;
+      padding: 5px 30px;
+    }
+    .dropdown {
+      width: 200px;
+      float: right;
+    }
+    .searchResultsWrapper {
+      display: flex;
+      flex-direction: column;
+      .errorText {
+        margin-top: 30px;
+        text-align: center;
+        font-weight: 500;
+      }
+    }
+    .pagination {
+      text-align: center;
+      padding: 0 0 20px 0px;
+    }
+  }
+}

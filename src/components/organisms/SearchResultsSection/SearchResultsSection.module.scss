@@ -1,0 +1,13 @@
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  width: 100%;
+}
+.searchResultsSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  // padding: 30px 40px;
+}

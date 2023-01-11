@@ -1,0 +1,22 @@
+.button {
+  background-color: #0969da;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  outline: none;
+  border: #fff;
+  cursor: pointer;
+  align-items: center;
+  .btnText {
+    font-size: 12px;
+    line-height: 18px;  
+  }
+  .leftIcon {
+    margin-right: 8px;
+    height: 18px;
+  }
+  .rightIcon {
+    margin-left: 8px;
+    height: 18px;
+  }
+}
